@@ -3,7 +3,7 @@
         }
         
         #logo {
-            padding-left: 100px;
+            padding-left: 70px;
         }
         
         #ban {
@@ -42,12 +42,26 @@
         }
         
         #sub {
-            margin-left: 200px;
+            margin-right: 150px;
+            margin-left: 180px;
             margin-top: 300px;
             padding-bottom: 500px;
-            padding-left: 500px;
-            padding-right: 600px;
-            background-color: aliceblue;
+            padding-left: 100px;
+            padding-right:100px;
+            padding-top: 100px;
+            background-color: rgb(255, 255, 255);
             color: aliceblue;
             position: absolute;
+            display:flex;
         }
+        #x1:hover{
+            background-color: rgb(240, 140, 0);
+            display: inline-block;
+        }
+        #sub1{
+            color: black;
+            font-family: 'Exo 2';
+            width: auto;
+            float:left;
+        }
+        #more {display: none;}
