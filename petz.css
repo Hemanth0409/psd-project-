@@ -8,9 +8,9 @@
         
         #ban {
             position: relative;
-            width: 1400px;
+            width: 1370px;
             height: 657px;
-            opacity: 0.9;
+            opacity: 0px;
         }
         
         #text1 {
@@ -26,7 +26,7 @@
         }
         
         #x1:hover {
-            background-color: rgb(251, 168, 2);
+            background-color: #ff9700;
             display: inline-block;
         }
         
@@ -34,7 +34,7 @@
             font-family: 'Exo 2';
             font-size: 23px;
             border-radius: 30px;
-            background-color: rgb(251, 168, 2);
+            background-color: #ff9700;
             color: white;
             border-style: none;
             position: absolute;
@@ -47,12 +47,10 @@
         }
         
         #sub {
-            margin-right: 10px;
+            margin-right: 150px;
             margin-left: 180px;
             margin-top: 300px;
             padding-bottom: 500px;
-            padding-left: 100px;
-            padding-right: 100px;
             padding-top: 100px;
             background-color: rgb(255, 255, 255);
             color: aliceblue;
@@ -65,6 +63,7 @@
             font-family: 'Exo 2';
             width: auto;
             float: left;
+            padding-right: 20px;
         }
         
         #more {
@@ -119,7 +118,7 @@
             width: 200px;
             font-size: 23px;
             border-radius: 30px;
-            background-color: rgba(255, 162, 0, 0.802);
+            background-color: #ff9700;
             color: white;
             border-style: none;
             position: absolute;
@@ -134,16 +133,79 @@
         
         #but2 {
             font-family: 'Exo 2';
-            width: 150px;
+            width: 200px;
             font-size: 23px;
             border-radius: 30px;
             background-color: rgba(35, 34, 32, 0.802);
             color: white;
             border-style: none;
             position: absolute;
-            margin-left: 420px;
+            margin-left: 360px;
             margin-top: 350px;
-            padding-right: 20px;
-            padding-top: 15px;
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-top: 10px;
+            padding-bottom: 7px;
+        }
+        
+        #bc {
+            position: relative;
+            height: 685px;
+            margin-top: 1400px;
+        }
+        
+        #fea {
+            font-family: 'Exo 2';
+            margin-top: -682px;
+            margin-left: 113px;
+        }
+        
+        #but3 {
+            border-style: none;
+            background-color: rgba(35, 34, 32, 0.802);
+            color: white;
+            font-size: x-small;
+            border-radius: 25px;
             padding-bottom: 10px;
+            padding-top: 10px;
+            padding-right: 25px;
+            padding-left: 25px;
+            font-family: 'Exo 2';
+        }
+        
+        #card1 {
+            display: flex;
+            position: absolute;
+            margin-left: 30px;
+        }
+        
+        #card2 {
+            display: flex;
+            position: absolute;
+            margin-left: 290px;
+        }
+        
+        #card3 {
+            display: flex;
+            position: absolute;
+            margin-left: 540px;
+        }
+        
+        #card4 {
+            display: flex;
+            position: absolute;
+            margin-left: 790px;
+        }
+        
+        #bc1 {
+            position: relative;
+            height: 418px;
+        }
+        
+        #bc2 {
+            position: absolute;
+            margin-top: -418px;
+            margin-left: 700px;
+            width: 670px;
+            height: 418px;
         }
