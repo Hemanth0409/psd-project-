@@ -25,6 +25,11 @@
             color: rgb(255, 255, 255);
         }
         
+        #x1:hover {
+            background-color: rgb(251, 168, 2);
+            display: inline-block;
+        }
+        
         #but {
             font-family: 'Exo 2';
             font-size: 23px;
@@ -42,26 +47,103 @@
         }
         
         #sub {
-            margin-right: 150px;
+            margin-right: 10px;
             margin-left: 180px;
             margin-top: 300px;
             padding-bottom: 500px;
             padding-left: 100px;
-            padding-right:100px;
+            padding-right: 100px;
             padding-top: 100px;
             background-color: rgb(255, 255, 255);
             color: aliceblue;
             position: absolute;
-            display:flex;
+            display: flex;
         }
-        #x1:hover{
-            background-color: rgb(240, 140, 0);
-            display: inline-block;
-        }
-        #sub1{
+        
+        #sub1 {
             color: black;
             font-family: 'Exo 2';
             width: auto;
-            float:left;
+            float: left;
         }
-        #more {display: none;}
+        
+        #more {
+            display: none;
+        }
+        
+        #mi {
+            position: absolute;
+            margin-top: 700px;
+            color: grey;
+            padding-left: 400px;
+            font-family: 'Exo 2';
+            font-size: 20px;
+        }
+        
+        #frame {
+            width: 100px;
+            position: absolute;
+            margin-top: 900px;
+            padding-left: 200px;
+            padding-bottom: 100px;
+            display: flex;
+            height: 500px;
+        }
+        
+        #heading {
+            width: 400px;
+            margin-left: 100px;
+            position: absolute;
+            font-family: 'Exo 2';
+        }
+        
+        #heading2 {
+            font-family: 'Exo 2';
+            position: absolute;
+            width: 1000px;
+            font-size: 20px;
+            margin-top: 70px;
+            margin-left: 100px;
+        }
+        
+        #heading3 {
+            position: absolute;
+            width: 490px;
+            margin-top: 150px;
+            margin-left: 100px;
+            color: grey;
+        }
+        
+        #but1 {
+            font-family: 'Exo 2';
+            width: 200px;
+            font-size: 23px;
+            border-radius: 30px;
+            background-color: rgba(255, 162, 0, 0.802);
+            color: white;
+            border-style: none;
+            position: absolute;
+            margin-left: 120px;
+            margin-top: 350px;
+            padding-right: 20px;
+            padding-left: 40px;
+            padding-top: 10px;
+            padding-bottom: 7px;
+            display: flex;
+        }
+        
+        #but2 {
+            font-family: 'Exo 2';
+            width: 150px;
+            font-size: 23px;
+            border-radius: 30px;
+            background-color: rgba(35, 34, 32, 0.802);
+            color: white;
+            border-style: none;
+            position: absolute;
+            margin-left: 420px;
+            margin-top: 350px;
+            padding-right: 20px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
