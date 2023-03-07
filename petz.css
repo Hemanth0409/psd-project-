@@ -160,18 +160,7 @@
             margin-left: 113px;
         }
         
-        #but3 {
-            border-style: none;
-            background-color: rgba(35, 34, 32, 0.802);
-            color: white;
-            font-size: x-small;
-            border-radius: 25px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            padding-right: 25px;
-            padding-left: 25px;
-            font-family: 'Exo 2';
-        }
+     
         
         #card1 {
             display: flex;
@@ -208,4 +197,93 @@
             margin-left: 700px;
             width: 670px;
             height: 418px;
+        }
+        #heading4{
+            position: absolute;
+            margin-left:200px;
+            margin-top:-370px ;
+            color: white;
+            font-family: 'Exo 2';
+        }
+        #mid{
+            position: absolute;
+            font-size: 20px;
+            margin-top:-310px ;
+            font-family: 'Exo 2';
+            color: grey;
+            margin-left:150px;
+        }
+        #mid1{
+            position: absolute;
+            margin-left:200px;
+            margin-top:-170px ;
+            color: white;
+            font-family: 'Exo 2';
+        }
+        #sil{
+            position: absolute ;
+            margin-left:200px;
+            margin-top:-110px ; 
+        }
+        #heading5{
+            padding: 40px;
+            margin-left: 150px;
+            font-family: 'Exo 2';
+        }
+        #but4,#but3{ 
+            border-style: none;
+            background-color: rgba(35, 34, 32, 0.802);
+            color: white;
+            font-size: x-small;
+            border-radius: 25px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            padding-right: 25px;
+            padding-left: 25px;
+            font-family: 'Exo 2';
+        }
+        #blog1{
+            display: flex;
+            position: relative;
+            margin-left: 200px;
+        }
+        #blog1-text{
+            position:absolute;
+            margin-top: -330px;
+            color: white;
+            margin-left: 230px;
+        }
+        #blog1-text1{
+            position:absolute;
+            text-decoration: underline;
+            font-size: x-small;
+            color: white;
+            margin-top: -50px;
+            margin-left: 230px;
+        }
+        #blog2{
+            display: flex;
+            width: 527px;
+            height:337px;
+            margin-top: -340px;
+            margin-left: 650px;
+        }
+        #blog3{
+            display: flex;
+            margin-top:50px;
+            margin-left: 200px;
+        }
+        #blog4{
+           
+            display: flex;
+            margin-top: -340px;
+            margin-left: 779px;
+        }
+        #bc3{
+            position: relative;
+            margin-top: 70px;
+        }
+        #text1{
+            position: absolute;
+            margin-top: 100px;
         }
