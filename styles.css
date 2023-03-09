@@ -21,7 +21,7 @@
 
 #x1:hover {
     background-color: #ff9700;
-    display: inline-block;
+    display: block;
 }
 
 #text1 {
