@@ -19,6 +19,11 @@
     opacity: 0px;
 }
 
+#x1:hover {
+    background-color: #ff9700;
+    display: inline-block;
+}
+
 #text1 {
     margin-top: -600px;
     margin-left: -100px;
@@ -68,7 +73,7 @@
     padding-right: 20px;
 }
 
-#more {
+.more {
     display: none;
 }
 
@@ -242,6 +247,18 @@
 }
 
 #sil {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -110px;
+}
+
+#sil1 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -110px;
+}
+
+#sil2 {
     position: absolute;
     margin-left: 150px;
     margin-top: -110px;
