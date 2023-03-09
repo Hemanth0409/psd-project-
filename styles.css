@@ -5,6 +5,7 @@
 #navhed {
     background: url(/asset/Layer\ 27\ copy.png);
     background-blend-mode: multiply;
+    width: 1370px;
 }
 
 #logo {
@@ -30,11 +31,6 @@
     color: rgb(255, 255, 255);
 }
 
-#x1:hover {
-    background-color: #ff9700;
-    display: inline-block;
-}
-
 #but {
     font-family: 'Exo 2';
     font-size: 23px;
@@ -52,8 +48,8 @@
 }
 
 #sub {
-    margin-right: 150px;
-    margin-left: 180px;
+    margin-right: 100px;
+    margin-left: 140px;
     margin-top: 300px;
     padding-bottom: 500px;
     padding-top: 100px;
@@ -61,9 +57,10 @@
     color: aliceblue;
     position: absolute;
     display: flex;
+    padding-left: 40px;
 }
 
-#sub1 {
+.sub1 {
     color: black;
     font-family: 'Exo 2';
     width: auto;
@@ -81,7 +78,7 @@
     color: grey;
     padding-left: 400px;
     font-family: 'Exo 2';
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #frame {
@@ -95,7 +92,7 @@
 }
 
 #heading {
-    width: 400px;
+    width: 450px;
     margin-left: 100px;
     position: absolute;
     font-family: 'Exo 2';
@@ -155,7 +152,7 @@
 
 #bc {
     position: relative;
-    height: 685px;
+    height: 780px;
     margin-top: 1400px;
 }
 
@@ -182,34 +179,28 @@
     display: flex;
     position: absolute;
     margin-left: 10px;
-    height: 400px;
+    height: 450px;
 }
 
 #card2 {
     display: flex;
     position: absolute;
-    margin-left: 270px;
-    height: 400px;
+    margin-left: 290px;
+    height: 450px;
 }
 
 #card3 {
     display: flex;
     position: absolute;
-    margin-left: 520px;
-    height: 400px;
+    margin-left: 570px;
+    height: 450px;
 }
 
 #card4 {
     display: flex;
     position: absolute;
-    margin-left: 770px;
-    height: 400px;
-}
-
-#back {
-    background-image: url(/asset/Layer\ 27\ copy\ 3.png);
-    padding-bottom: 100px;
-    padding-top: 30px;
+    margin-left: 840px;
+    height: 450px;
 }
 
 #bc1 {
@@ -276,10 +267,19 @@
     font-family: 'Exo 2';
 }
 
+#back {
+    background-image: url(/asset/Layer\ 27\ copy\ 3.png);
+    padding-bottom: 100px;
+    padding-top: 30px;
+    width: 1370px;
+}
+
 #blog1 {
     display: flex;
     position: relative;
     margin-left: 150px;
+    width: 450px;
+    height: 350px;
 }
 
 #blog1-text {
@@ -300,22 +300,25 @@
 
 #blog2 {
     display: flex;
-    width: 527px;
-    height: 337px;
-    margin-top: -340px;
-    margin-left: 600px;
+    width: 550px;
+    height: 350px;
+    margin-top: -350px;
+    margin-left: 650px;
 }
 
 #blog3 {
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 150px;
+    width: 550px;
+    height: 360px;
 }
 
 #blog4 {
     display: flex;
-    margin-top: -340px;
+    margin-top: -359px;
     margin-left: 729px;
+    height: 360px;
 }
 
 #footer {
@@ -428,4 +431,9 @@
     font-family: 'Exo 2';
     margin-left: 898px;
     color: white;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: unset;
 }
