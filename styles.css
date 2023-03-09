@@ -3,7 +3,7 @@
 }
 
 #navhed {
-    background: url(/asset/Layer\ 27\ copy.png);
+    background: url(./asset/Layer\ 27\ copy\ 3.png);
     background-blend-mode: multiply;
     width: 1370px;
 }
@@ -452,5 +452,4 @@
 
 body {
     overflow-x: hidden;
-    overflow-y: unset;
 }
