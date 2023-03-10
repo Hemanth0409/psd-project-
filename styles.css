@@ -1,3 +1,5 @@
+/* navBar */
+
 #navbarText {
     margin-left: 700px;
 }
@@ -8,9 +10,15 @@
     width: 1370px;
 }
 
+
+/* LOGO */
+
 #logo {
     padding-left: 70px;
 }
+
+
+/* Banner */
 
 #ban {
     position: relative;
@@ -36,6 +44,9 @@
     color: rgb(255, 255, 255);
 }
 
+
+/* button1 */
+
 #but {
     font-family: 'Exo 2';
     font-size: 23px;
@@ -51,6 +62,9 @@
     padding-top: 8px;
     padding-bottom: 7px;
 }
+
+
+/* img background */
 
 #sub {
     margin-right: 100px;
@@ -86,6 +100,9 @@
     font-size: 30px;
 }
 
+
+/* frame */
+
 #frame {
     width: 100px;
     position: absolute;
@@ -96,12 +113,18 @@
     height: 500px;
 }
 
+
+/* title */
+
 #heading {
     width: 450px;
     margin-left: 100px;
     position: absolute;
     font-family: 'Exo 2';
 }
+
+
+/* title2 */
 
 #heading2 {
     font-family: 'Exo 2';
@@ -112,6 +135,9 @@
     margin-left: 100px;
 }
 
+
+/* title 3 */
+
 #heading3 {
     position: absolute;
     width: 490px;
@@ -119,6 +145,9 @@
     margin-left: 100px;
     color: grey;
 }
+
+
+/* button2 */
 
 #but1 {
     font-family: 'Exo 2';
@@ -137,6 +166,9 @@
     padding-bottom: 7px;
     display: flex;
 }
+
+
+/* button3 */
 
 #but2 {
     font-family: 'Exo 2';
@@ -167,6 +199,9 @@
     margin-left: 113px;
 }
 
+
+/* button3 */
+
 #but3 {
     border-style: none;
     background-color: rgba(35, 34, 32, 0.802);
@@ -180,12 +215,18 @@
     font-family: 'Exo 2';
 }
 
+
+/* card1 */
+
 #card1 {
     display: flex;
     position: absolute;
     margin-left: 10px;
     height: 450px;
 }
+
+
+/* card2 */
 
 #card2 {
     display: flex;
@@ -194,12 +235,18 @@
     height: 450px;
 }
 
+
+/* card3 */
+
 #card3 {
     display: flex;
     position: absolute;
     margin-left: 570px;
     height: 450px;
 }
+
+
+/* card4 */
 
 #card4 {
     display: flex;
@@ -246,6 +293,9 @@
     font-family: 'Exo 2';
 }
 
+
+/* silder */
+
 #sil {
     position: absolute;
     margin-left: 150px;
@@ -291,6 +341,9 @@
     width: 1370px;
 }
 
+
+/* blog background1 */
+
 #blog1 {
     display: flex;
     position: relative;
@@ -315,6 +368,9 @@
     margin-left: 180px;
 }
 
+
+/* blog background2 */
+
 #blog2 {
     display: flex;
     width: 550px;
@@ -323,6 +379,9 @@
     margin-left: 650px;
 }
 
+
+/* blog background3 */
+
 #blog3 {
     display: flex;
     margin-top: 70px;
@@ -330,6 +389,9 @@
     width: 550px;
     height: 360px;
 }
+
+
+/* blog background4 */
 
 #blog4 {
     display: flex;
@@ -341,6 +403,9 @@
 #footer {
     position: relative;
 }
+
+
+/* footer */
 
 #footer1 {
     position: absolute;
@@ -440,6 +505,9 @@
     font-family: 'Exo 2';
     margin-left: 700px;
 }
+
+
+/* copyRights */
 
 #copyr {
     position: absolute;
